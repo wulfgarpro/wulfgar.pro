@@ -1,0 +1,46 @@
+html, body {
+	height:100%;
+}
+
+body {
+	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'DejaVu Sans Mono', monospace; 
+	font-size: 11pt;
+}
+
+h1{
+	font-size: 30pt;
+	margin-top:0px;
+	margin-bottom:0px;
+	letter-spacing: 1px;
+}
+
+a {
+        color:black;
+	text-decoration: none;
+	color:#36ff00;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#page {
+	display: table;
+	margin: 0px auto;
+	height:100%;
+}
+
+#content-container {
+	display: table-cell;
+	vertical-align: middle;
+	height:120px;
+}
+
+#content, #banner {
+	display: table-cell;
+	padding:20px;
+}
+
+#content {
+	text-align: right;
+}
