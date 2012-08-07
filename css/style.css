@@ -43,17 +43,12 @@ body {
 
 #content { 
  width:900px;
- /*margin-top:10px;
- /*min-height:500px; /* for modern browsers */
- /*height:auto !important; /* for modern browsers */
- /*height:500px; /* for IE5.x and IE6 */
  padding: 10px;
  padding-bottom: 60px;
 }
 
 #footer { 
  width:900px;
- /*margin-top:10px;*/
  text-align: center;
  font-size: 19px;
  height: 60px;
