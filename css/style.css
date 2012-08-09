@@ -6,7 +6,6 @@
 html,
 body {
  width: 900px;
- /* top and bottom are 0, left and right are auto */
  margin: 0 auto;
  font-family: Georgia, Serif;
  font-size: 21px;
