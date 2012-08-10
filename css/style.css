@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 
  James Fraser
  2012 
@@ -87,3 +88,93 @@ h1, h2, h3 {
 /* #container {
  height: 100%;
 } */
+=======
+/* 
+ James Fraser
+ 2012 
+*/
+
+html,
+body {
+ width: 900px;
+ margin: 0 auto;
+ font-family: Georgia, Serif;
+ font-size: 21px;
+ height: 100%;
+ padding: 0;
+}
+
+#header {
+ width: 900px;
+ border-top: 1px solid #ccf;
+ padding: 10px 0px;
+ padding-top: 5px;
+ padding-bottom: 100px;
+ font-size: 19px;
+}
+
+.nav ul {
+ display: inline;
+}
+
+.nav li {
+ display: inline;
+ padding: 0;
+ float: left;
+}
+
+.nav li:after {
+ content: " / ";
+}
+
+.nav ul li:last-child:after {
+ content: "";
+}
+
+#content { 
+ width: 900px;
+ /*padding: 10px 0px;
+ padding-bottom: 65px;*/
+}
+
+#footer { 
+ width: 900px;
+ text-align: center;
+ font-size: 19px;
+ height: 65px;
+}
+
+#push {
+  height: 65px;
+  clear: both;
+}
+
+a {
+ color: #004491;
+ text-decoration: none;
+ border-bottom: 1px dotted #ccf; 
+}
+
+a:hover {
+ border-bottom: 1px solid #ccf;
+}
+
+h1, h2, h3 {
+ font-weight: normal;
+}
+
+.pagetitle {
+ padding-bottom: 5px;
+ border-bottom: 1px solid #ccf;
+}
+
+#container {
+ min-height: 100%;
+ height: 100%;
+ margin: 0 auto -65px;
+}
+
+/* #container {
+ height: 100%;
+} */
+>>>>>>> 5fdb848e3906b6175039313d8903cab0b1160736
