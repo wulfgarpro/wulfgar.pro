@@ -44,14 +44,15 @@ body {
 
 #content { 
  width: 470px;
+ padding-bottom: 80px;
 }
 
 #footer { 
+ border-top: 2px solid #ccf;
  width: 470px;
  text-align: center;
  font-size: 15px;
- padding-top: 70px;
- padding-bottom: 20px;
+ padding-bottom: 10px;
  /*height: 50px;*/
 }
 
