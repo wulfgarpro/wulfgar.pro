@@ -5,7 +5,7 @@
 
 html,
 body {
- width: 470px;
+ width: 480px;
  margin: 0 auto;
  /*font-family: Georgia, Serif;*/
  font-family: Ubuntu, Georgia, Serif;
@@ -16,7 +16,7 @@ body {
 }
 
 #header {
- width: 470px;
+ width: 480px;
  border-top: 1px solid #ccf;
  padding: 10px 0px;
  padding-top: 5px;
@@ -43,16 +43,18 @@ body {
 }
 
 #content { 
- width: 470px;
- padding-bottom: 80px;
+ width: 480px;
 }
 
-#footer { 
- border-top: 2px solid #ccf;
- width: 470px;
+#footer {
+ border-top: 1px solid #ccf;
+ border-bottom: 1px solid #ccf;
+ width: 480px;
  text-align: center;
- font-size: 15px;
- padding-bottom: 10px;
+ font-size: 11px;
+ padding-bottom: 5px;
+ background-color: #f5f5f5;
+ /*padding-bottom: 10px;*/
  /*height: 50px;*/
 }
 
