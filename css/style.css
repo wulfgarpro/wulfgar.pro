@@ -46,6 +46,10 @@ body {
  width: 480px;
 }
 
+#posts { 
+ width: 480px;
+}
+
 #footer {
  border-top: 1px solid #ccf;
  border-bottom: 1px solid #ccf;
