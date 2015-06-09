@@ -1,3 +1,20 @@
-<div id="footer">
-   <p>James Fraser <strong>is</strong> <a href="{{ site.site }}">wulfgar.pro</a> / wulfgar dot pro @ gmail dot com</p>
+<div class="footer">   
+   <div class="nav">
+     <p>James Fraser <strong>is</strong> <a href="https://wulfgarpro.github.io/">wulfgar.pro</a> / wulfgar dot pro @ gmail dot com</p>
+      <ul>
+         {% if site.github %}
+            <li><a href="{{ site.github }}" target="_blank">github</a></li>
+         {% endif %}
+         {% if site.twitter %}
+            <li><a href="{{ site.twitter }}" target="_blank">twitter</a></li>
+         {% endif %}
+         <!--{% if site.blog %}
+            <li><a href="{{ site.blog }}" target="_blank">blog</a></li>
+         {% endif %}-->
+         {% if site.about %}
+            <li><a href="{{ site.url }}/{{ site.about }}" target="_blank">about</a></li>
+         {% endif %}
+      </ul>
+   </div>
+   <!--<div class="portrait"><img src="{{ site.url }}/images/wulfgar_portrait_rounded.png" /></div>-->
 </div>

@@ -1,4 +1,5 @@
-destination: _site
+baseurl: /
+#destination: _site
 
 site: https://wulfgarpro.github.io/
 resume: files/JamesFraser-CV-2013.pdf
