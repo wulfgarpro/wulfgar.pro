@@ -21,7 +21,7 @@ body {
  border-top: 2px solid #ccf;
  padding: 10px 0px;
  padding-top: 5px;
- padding-bottom: 80px;
+ /*padding-bottom: 80px;*/
  font-size: 25px;
 }
 
@@ -49,7 +49,7 @@ body {
 #content { 
  width: 580px;
  text-align: justify; 
- padding-bottom: 100px;
+ /*padding-bottom: 100px;*/
 }
 
 #posts { 
