@@ -12,6 +12,11 @@ keywords: "jekyll, meta, keywords, description, seo, tutorial, automate, Dave Mc
 
 <p class="meta">02 June 2015 - Melbourne</p>
 
-Samsung's ROM flashing tool [Odin](http://odindownload.com/ "Odin") runs only on Windows.  There is a Linux tool named [Heimdall](http://glassechidna.com.au/heimdall/ "Heimdall") with the same intention as Odin, but it's not Samsung's official tool.  With Ubuntu as the host operating system, I was able to run Odin from a Windows 7 guest using VirtualBox.
+Samsung's ROM flashing tool [Odin](http://odindownload.com/ "Odin") runs only on Windows.  There is a Linux tool named [Heimdall](http://glassechidna.com.au/heimdall/ "Heimdall") with the same intention as Odin, but it's not Samsung's official tool.  With Ubuntu as my host operating system, I was able to run Odin from a Windows 7 guest using VirtualBox.  
 
+* Prerequisites:
+** VirtualBox installed and guest Windows 7 VM running
+** Odin downloaded and running on guest Windows 7 VM
+**  
 
+1. Install
