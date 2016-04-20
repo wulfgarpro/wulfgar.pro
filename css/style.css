@@ -1,6 +1,6 @@
-/* 
+/*
  James Fraser
- 2012 
+ 2012
 */
 
 html,
@@ -31,7 +31,7 @@ body {
 .nav ul {
  list-style-type: none;
  padding: 0;
- 
+
 }
 
 .nav li {
@@ -46,16 +46,16 @@ body {
  content: "";
 }
 
-#content { 
+#content {
  width: 580px;
- text-align: justify; 
+ text-align: justify;
  /*padding-bottom: 100px;*/
 }
 
-#posts { 
+#posts {
  width: 580px;
- font-size: 30px; 
- text-align: justify;
+ font-size: 30px;
+ text-align: left;
  display: inline;
  padding-bottom: 20px;
 }
@@ -66,17 +66,17 @@ body {
 
 .posts .meta {
  color: black;
- font-weight: bold; 
+ font-weight: bold;
 }
 
-.posts ul {	
+.posts ul {
  padding: 0;
  list-style-type: none;
  float: left;
 }
 
-.posts li {	
- float: left; 
+.posts li {
+ float: left;
 }
 
 .footer {
@@ -101,7 +101,7 @@ body {
 a {
  color: #004491;
  text-decoration: none;
- border-bottom: 1px dotted #ccf; 
+ border-bottom: 1px dotted #ccf;
 }
 
 a:hover {
@@ -131,8 +131,8 @@ h1, h2, h3 {
 }
 
 #forkme {
- position: absolute; 
- top: 0; 
- right: 0;  
+ position: absolute;
+ top: 0;
+ right: 0;
  border: 0;
 }
