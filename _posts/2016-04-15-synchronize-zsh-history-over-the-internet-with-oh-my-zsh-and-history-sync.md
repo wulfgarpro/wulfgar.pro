@@ -26,10 +26,10 @@ The basic concept is:
 
 1. Encrypt $HOME/.zsh_history using GPG public key encryption on source computer
 2. Push encrypted zsh_history to a remote Git repository
-3. Pull encrypted zsh_history from Git repository and decrypt on destination computer
+3. Pull encrypted zsh_history from said Git repository and decrypt on destination computer
 4. Merge decrypted zsh\_history with $HOME/.zsh_history
 
-All of this is achievable using the history-sync's alias commands:
+All of this is achievable using history-sync's alias commands:
 
 * `zhps -r <string> -r <string> -r ...`
 * `zhpl`
