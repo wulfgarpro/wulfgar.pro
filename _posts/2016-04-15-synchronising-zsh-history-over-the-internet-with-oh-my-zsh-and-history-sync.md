@@ -35,3 +35,4 @@ All of this is achievable using history-sync's alias commands:
 * `zhpl`
 * `zhsync`
 
+[Here's](https://asciinema.org/a/43575) an example of it's use.
