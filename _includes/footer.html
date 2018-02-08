@@ -6,12 +6,19 @@
             <!-- <li><a href="{{ site.github }}" target="_blank">github</a></li> -->
             <li><a href="{{ site.github }}" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
          {% endif %}
+         {% if site.keybase %}
+            <!-- Coming soon... waiting on fa icon -->
+            <li><a href="{{ site.keybase }}" target="_blank"><i class="fa fa-keybase fa-fw"></i></a></li>
+         {% endif %}
          {% if site.twitter %}
             <li><a href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
          {% endif %}
-         <!--{% if site.blog %}
-            <li><a href="{{ site.blog }}" target="_blank">blog</a></li>
-         {% endif %}-->
+         {% if site.linkedin %}
+            <li><a href="{{ site.linkedin }}" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+         {% endif %}
+         {% if site.email %}
+            <li><a href="mailto:{{ site.email }}" target="_blank"><i class="fa fa-envelope fa-fw"></i></a></li>
+         {% endif %}
          {% if site.about %}
             <li><a href="{{ site.url }}/{{ site.about }}">about</a></li>
          {% endif %}
