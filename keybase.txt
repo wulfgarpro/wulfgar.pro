@@ -1,1 +1,56 @@
+==================================================================
 https://keybase.io/wulfgarpro
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://wulfgar.pro
+  * I am wulfgarpro (https://keybase.io/wulfgarpro) on keybase.
+  * I have a public key ASC8ENkegPmPXmvdtPn9D7MLtZLEmUW4JLAErh-1Zn0p2Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f75cd1b8b61b48efa6c19de0c9ca217d2c6d172a915b1b03d0357f2ab2aa994f0a",
+      "host": "keybase.io",
+      "kid": "0120bc10d91e80f98f5e6bddb4f9fd0fb30bb592c49945b824b004ae1fb5667d29d80a",
+      "uid": "07c80acda60428017ea46d3fd590a319",
+      "username": "wulfgarpro"
+    },
+    "merkle_root": {
+      "ctime": 1529823123,
+      "hash": "043c3b5d901597462b2c33bacb704089f20f58335f7d4f59e6206c40115e453c480ed19c3499ca3523367c22caff58b8a77cf51cdf64dfb919c06bacd113d23a",
+      "hash_meta": "5415063394afbe7e4f911cc0569e83ea526194ce3986e1f081eee99e087a8001",
+      "seqno": 3133021
+    },
+    "service": {
+      "entropy": "09OXnivG/wRgyv5uR4udwxDr",
+      "hostname": "wulfgar.pro",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.3.0"
+  },
+  "ctime": 1529823158,
+  "expire_in": 504576000,
+  "prev": "48f374841a8355c5dca280b708fb00e57ba06c9a6b0b8602a4ed93b1c3cf9ab9",
+  "seqno": 42,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvBDZHoD5j15r3bT5/Q+zC7WSxJlFuCSwBK4ftWZ9KdgKp3BheWxvYWTESpcCKsQgSPN0hBqDVcXcooC3CPsA5XugbJprC4YCpO2TscPPmrnEIFC08IBH+Yz/CwqtP63J+YxNSCAw3W5di0EiayplyXLLAgHCo3NpZ8RAb+NnGsmqc2PhU1Hya6OLpXANkDZdw1dgcJg4gpV9MskR/W+Npewzg9hpTYOHaamZLoqIHgw5XU5rs7pBCHr8AahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJWl67FwZ+Va7NkLzDIRT0z4TvtO+v+yXes15JZalrBjo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wulfgarpro
+
+==================================================================
