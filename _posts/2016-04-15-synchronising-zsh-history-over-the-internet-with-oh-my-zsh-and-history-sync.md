@@ -14,7 +14,7 @@ Occasionally I think to myself:
 
 _"What was the complex command sequence I ran on my laptop when I was using it 2 hours ago?"_
 
-I've either had to wait until I'm in range of my laptop to check my shell history, or I have to remember to record the commands, usually by sending an email to myself. None of these solutions are beneficial when I'm in a jam.
+When this happens, I either wait until I'm in range of my laptop to check my shell history, or I have to remember to record the commands, usually by sending an email to myself. None of these solutions is beneficial when I'm in a jam.
 
 That's why I thought to myself:
 
