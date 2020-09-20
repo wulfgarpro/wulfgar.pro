@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Synchronising Zsh history over the Internet with Oh-My-Zsh and history-sync
-categories: [zsh_history, oh-my-zsh, plugin]
+categories: [Oh-My-Zsh, Plugin, Code]
 ---
 
 _"Why doesn't Oh-My-Zsh have a plugin that allows me to synchronise my Zsh history over the Internet?"_
