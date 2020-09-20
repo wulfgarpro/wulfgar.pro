@@ -6,14 +6,14 @@ categories: [Oh-My-Zsh, Plugin, Code]
 
 _"Why doesn't Oh-My-Zsh have a plugin that allows me to synchronise my Zsh history over the Internet?"_
 
-In the project's 200+ plugin base, not one plugin achieves said functionality, and that's why I wrote [history-sync](https://github.com/wulfgarpro/history-sync).
+In the project's 200+ plugin base, not one plugin achieves said functionality, and that's why I coded [history-sync](https://github.com/wulfgarpro/history-sync).
 
 The basic concept is:
 
-1. Encrypt $HOME/.zsh_history using GPG public key encryption on the source computer
-2. Push encrypted zsh_history to a remote Git repository
-3. Pull encrypted zsh_history from said Git repository and decrypt on the destination computer
-4. Merge decrypted zsh\_history with $HOME/.zsh_history
+1. Encrypt `$HOME/.zsh_history` as `zsh_history` using GPG public key encryption on the source computer
+2. Push encrypted `zsh_history` to a remote Git repository
+3. Pull encrypted `zsh_history` from said Git repository and decrypt on the destination computer
+4. Merge decrypted `zsh_history` with `$HOME/.zsh_history` on destination computer
 
 All of this is achievable using history-sync's alias commands:
 
