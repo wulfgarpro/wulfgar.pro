@@ -64,7 +64,7 @@ With this file upload capability, upload a reverse PHP shell--the website is ser
 
 ## User Shell
 
-Copy 40390, changing the extension from _php_ to _html_:
+Copy 40390, changing the extension from _.php_ to _.html_:
 
 ```bash
 $ cp 40390.{php,html}
