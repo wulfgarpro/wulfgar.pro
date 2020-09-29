@@ -96,3 +96,5 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+timezone: Australia/Melbourne
