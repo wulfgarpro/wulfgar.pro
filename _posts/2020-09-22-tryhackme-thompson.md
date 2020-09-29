@@ -12,7 +12,7 @@ categories: [TryHackMe, Penlog, Write Up, CTF, OSCP]
 
 ## Enumeration
 
-Run both a normal service scan and full port scan on the target IP `nmap`:
+Run `nmap` default port scan on target with TCP connect/version/script options:
 
 ```bash
 $ nmap -vv -Pn -sT -sV -sC -r -n 10.10.58.198

@@ -28,7 +28,7 @@ This results in:
 
 ![nmap2](/images/posts/penlog_sedna_by_vulnhub/nmap2.png)
 
-Run `DirBuster` against the target's open http port 80 using the _/usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt_ wordlist and
+Run `dirbuster` against the target's open http port 80 using the _/usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt_ wordlist and
 options _Be Recursive_ switched off, and _File extension_ set to _html, php, txt_.
 
 Note **/licence.txt** in the result; navigate to this in the browser and notice the line:
@@ -50,7 +50,7 @@ $ searchsploit enginebuilder
 
 ![searchsploit](/images/posts/penlog_sedna_by_vulnhub/searchsploit_enginebuilder.png)
 
-Download the non-Metasploit PoC with EDB ID **40390**:
+Download the non-Metasploit PoC with EDB-ID [40390](https://www.exploit-db.com/exploits/40390):
 
 ```bash
 $ searchsploit -m 40390
