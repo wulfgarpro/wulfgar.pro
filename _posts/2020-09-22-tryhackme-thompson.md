@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PenLog - &quot;Thompson&quot; by TryHackMe
+title: PenLog - Thompson by TryHackMe
 categories: [TryHackMe, Penlog, Write Up, CTF, OSCP]
 ---
 

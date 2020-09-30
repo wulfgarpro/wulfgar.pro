@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PenLog - &quot;Ignite&quot; by TryHackMe
+title: PenLog - Ignite by TryHackMe
 categories: [TryHackMe, Penlog, Write Up, CTF, OSCP]
 ---
 

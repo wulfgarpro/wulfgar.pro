@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PenLog - &quot;Sedna&quot; by VulnHub
+title: PenLog - Sedna by VulnHub
 categories: [VulnHub, Penlog, Write Up, CTF, OSCP]
 ---
 
