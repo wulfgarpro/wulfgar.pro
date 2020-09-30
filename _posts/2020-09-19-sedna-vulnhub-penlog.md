@@ -106,7 +106,7 @@ $ nc -vnlp 4444
 Click the _php-reverse-shell.php_ link in the browser and establish a reverse shell connection:
 
 ![user-shell](/images/posts/penlog_sedna_by_vulnhub/user_shell.png)
-_(Note: "reverse" in the above is a bash alias for `nc -vnlp 4444`.)_
+_(**Note:** "reverse" in the above is a bash alias for `nc -vnlp 4444`.)_
 
 Get the user _flag.txt_:
 
@@ -161,7 +161,7 @@ $ cat /etc/chkrootkit/README
 Search for a local privilege escalation with `searchsploit` and download the non-Metasploit PoC **33899**:
 
 ![33899-chkrootkit](/images/posts/penlog_sedna_by_vulnhub/33899_chkrootkit.png)
-_(Note: "ss" in the above is a bash alias for `searchsploit`.)_
+_(**Note:** "ss" in the above is a bash alias for `searchsploit`.)_
 
 ### 33899 Description
 
