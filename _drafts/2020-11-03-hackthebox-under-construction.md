@@ -12,7 +12,7 @@ categories: [HackTheBox, Penlog, Write Up, CTF, Challenge, Tracks]
 
 ## Enumeration
 
-With the instance started and the challenge package downloaded, navigate to the web app:
+Start the instance and download the challenge package then navigate to the web app:
 
 ![under-construction](/images/posts/penlog_under_construction_by_hackthebox/under_construction.png)
 _(**Note:**: The IP address and port is supplied via the challenge "Start instance" page.)_
