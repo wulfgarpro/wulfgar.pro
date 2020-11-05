@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PenLog - Under Construction by HackTheBox
-categories: [HackTheBox, Penlog, Challenge, Web]
+categories: [HackTheBox, Penlog, Write Up, CTF, Challenge, Web]
 ---
 
 ## Details
