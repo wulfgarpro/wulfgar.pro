@@ -21,7 +21,7 @@ $ nmap -vv -Pn -sT -sV -sC 10.10.211.150
 This results in:
 
 ![nmap1](/images/posts/penlog_ignite_by_tryhackme/nmap1.png)
-_(**Note:** http-title "Welcome to FUEL CMS".)_
+_(**Note:** HTTP title "Welcome to FUEL CMS".)_
 
 Google "FUEL CMS" and note description on [website](https://www.getfuelcms.com/):
 
@@ -31,7 +31,7 @@ Open browser an navigate to target's open http port 80; note FUEL CMS version v1
 
 ![fuelcms](/images/posts/penlog_ignite_by_tryhackme/fuelcms.png)
 
-Also note mention of default credentials:
+Also, note the mention of default credentials:
 
 ![fuelcms-creds](/images/posts/penlog_ignite_by_tryhackme/fuelcms_creds.png)
 _(**Note:** Logging in to the portal proved useless.)_
@@ -75,7 +75,7 @@ As shown in the decoded PHP code, a call to PHP's `system` results in code execu
 
 ## User Shell
 
-I re-wrote the 47138 PoC (_fuelpwn.py_) and stripped out printing of the GET request response and built-in
+I re-wrote the 47138 PoC (_fuelpwn.py_) and stripped out printing of the GET request's response and built-in
 support for the Burp Suite proxy:
 
 ```python
@@ -106,7 +106,7 @@ try:
 except:
     pass
 ```
-_(**Note:** You can download my port [fuelpwn.py](https://gist.github.com/wulfgarpro/d302038d40e4aab46a5b61d876b01b93).)_
+_(**Note:** You can download my port, "fuelpwn.py" [here](https://gist.github.com/wulfgarpro/d302038d40e4aab46a5b61d876b01b93).)_
 
 This port simplifies getting a reverse shell.
 

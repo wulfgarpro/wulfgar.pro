@@ -22,7 +22,7 @@ This results in:
 
 ![nmap1](/images/posts/penlog_thompson_by_tryhackme/nmap1.png)
 
-Open browser and navigate to target's open http port 8080; confirm Tomcat version is v8.5.5 as per the `nmap` scan result:
+Open the browser and navigate to target's open HTTP port 8080; confirm Tomcat version is v8.5.5 as per the `nmap` scan result:
 
 ![tomcat](/images/posts/penlog_thompson_by_tryhackme/tomcat.png)
 
@@ -34,7 +34,7 @@ Note the rendered error response mentions example credentials:
 
 ![tomcat-error](/images/posts/penlog_thompson_by_tryhackme/tomcat_error.png)
 
-Reattempt to authenticate to _/manager_ with the above mentioned example credentials - **success**.
+Reattempt to authenticate to _/manager_ with the above-mentioned example credentials - **success**.
 
 ## User Shell
 
@@ -57,7 +57,7 @@ Start an `nc` lister on the port specified as _LPORT_ to the `msfvenom` command:
 $ nc -vnlp 4444
 ```
 
-Click the _/shell_ link in the deployed applications list (as shown above) -- the Tomcat server will execute the deployed JSP reverse shell code generated using `msfvenom` -- to establish a low-privilege _user_ shell.
+Click the _/shell_ link in the deployed applications list (as shown above) -- the Tomcat server will execute the deployed JSP reverse shellcode generated using `msfvenom` -- to establish a low-privilege _user_ shell.
 
 Upgrade the shell with a PTY:
 
@@ -73,7 +73,7 @@ Get the user _flag.txt_:
 
 ![nmap1](/images/posts/penlog_thompson_by_tryhackme/user_flag.png)
 
-Notice the _id.sh_ file in the user home directory _/home/jack_; this script is owned by _jack_ but is world writable - that is, the _tomcat_ user can change the script:
+Notice the _id.sh_ file in the user home directory _/home/jack_; this script is owned by _jack_ but is world-writable - that is, the _tomcat_ user can change the script:
 
 ![id-script-perms](/images/posts/penlog_thompson_by_tryhackme/id_script_perms.png)
 
@@ -93,7 +93,7 @@ Replace the _id.sh_ script with a bash reverse shell connection to attacking mac
 
 ![id-script-new](/images/posts/penlog_thompson_by_tryhackme/id_script_new.png)
 
-Start `nc` listener on the attacking machine, specifying expected reverse shell port (4446 in this case):
+Start `nc` listener on the attacking machine, specifying the expected reverse shell port (4446 in this case):
 
 ```bash
 $ nc -vnlp 4446
