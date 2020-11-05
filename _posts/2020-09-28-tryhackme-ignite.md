@@ -106,7 +106,7 @@ try:
 except:
     pass
 ```
-_(**Note:** You can download my port [here](https://gist.github.com/wulfgarpro/d302038d40e4aab46a5b61d876b01b93).)_
+_(**Note:** You can download my port [fuelpwn.py](https://gist.github.com/wulfgarpro/d302038d40e4aab46a5b61d876b01b93).)_
 
 This port simplifies getting a reverse shell.
 
